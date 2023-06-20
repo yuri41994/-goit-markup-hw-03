@@ -18,6 +18,9 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
+
+
+/* Reset */
 .h1,
 h2,
 h3,
@@ -27,8 +30,24 @@ h6,
 p {
     margin: 0;
 }
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
+.container{
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid red;
+    outline-offset: -2px;
+    padding-left: 15px;
+    padding-right: 15px;
 
+}
+/* Header */
 .link {
     text-decoration: none;
 }
@@ -37,12 +56,11 @@ p {
     list-style: none;
 }
 
-/* Index */
-
-/* header */
-
 .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
+
 
 .header-nav {}
 
@@ -104,8 +122,16 @@ p {
 }
 
 /* main */
+.section{
+
+}
 .hero {
     background-color: var(--navi-blue-color);
+    padding-top: 188px;
+    padding-bottom: 292px;
+    margin-bottom: 120px;
+    
+    
 }
 
 .hero-title {
@@ -114,6 +140,7 @@ p {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
+ 
    
 }
 
@@ -136,7 +163,10 @@ p {
     background-color: var(--ocean-color);
 }
 
-.feature {}
+.feature {
+    margin-bottom: 120px;
+    padding-right: 50px;
+}
 
 .feature-list {}
 
@@ -157,7 +187,10 @@ p {
     color: var(--slate-color);
 }
 
-.section-about {}
+.section-about {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
 
 .about-title {
     font-size: 36px;
@@ -208,7 +241,13 @@ p {
 
 /* footer */
 .footer {
+    width: 1440px;
+    height: 312px;
     background-color: var(--navi-blue-color);
+    padding-top: 100px;
+    padding-right: 1020px;
+    padding-bottom: 100px; 
+    padding-left: 156px;
 }
 
 .footer-logo {
@@ -232,12 +271,18 @@ p {
 }
 
 /* Portfolio */
+.header-portfolio {
+    margin-bottom: 96px;
+
+}
 
 .section-portfolio {}
 
 .filters-title {}
 
-.filters-list {}
+.filters-list {
+    margin-bottom: 72px;
+}
 
 .filters-button {
     font-family: "Roboto", sans-serif;
@@ -260,9 +305,24 @@ p {
     background-color: var(--ocean-color);
 }
 
-.raw-list {}
+.raw-list {
 
-.raw-item {}
+}
+.app-marketing{
+    margin-bottom: 48px;
+
+}
+.marketing-design{
+    margin-bottom: 48px;
+
+}
+.design-website{
+    margin-bottom: 120px;
+
+}
+.raw-item {
+    
+}
 
 .raw-link {}
 
